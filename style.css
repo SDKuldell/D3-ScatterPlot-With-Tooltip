@@ -1,0 +1,22 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.tooltip {
+  position: fixed;
+  display: none;
+  font-size: 12px;
+  border-radius: 4px;
+  opacity: 0.8;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
