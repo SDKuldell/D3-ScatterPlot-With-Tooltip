@@ -1,4 +1,7 @@
 d3.csv("wealth-health-2014.csv", d3.autoType).then((data) => {
+  data = data.sort(function (a, b) {
+    return b.Population - a.Population;
+  });
   const margin = { top: 20, left: 20, right: 20, bottom: 20 };
   const totalWidth = 650;
   const totalHeight = 500;
